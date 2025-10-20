@@ -30,11 +30,16 @@ h1{
     text-decoration: none;
     font-weight: bold;
 }
+.pagination li a:hover{
+    background-color: gray;
+    color: black;
+}
 .pagination li a.active{
     background-color: white;
     color: black;
 }
 iframe{
+    margin-top: 20px;
     margin: 0, auto;
     width: 50%;
     height: 500px;
