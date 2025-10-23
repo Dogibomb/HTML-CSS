@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.TopSection{
+    
+    margin: 0 auto;
+    background-image: url(images/topsection.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1800px;
+    height: 900px;
+}
+nav ul {
+    list-style: none;
+}
+.card-div{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+}
+.card a{
+    border: 2px solid yellow;
+    padding: 10px;
+}
