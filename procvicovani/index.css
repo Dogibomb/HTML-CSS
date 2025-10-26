@@ -1,32 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+  font-family: 'Inter';
+}
 .TopSection{
     
     margin: 0 auto;
+    margin-top: 15px;
     background-image: url(images/topsection.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1800px;
-    height: 900px;
+    width: 1890px;
+    height: 890px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+/*------------------------------------ navbar ------------------------------------*/
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+nav ul div{
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+}
+
+.about-buttons{
+    font-size: 25px;
+}
+.search input{
+    padding: 6px 12px;
+    border: 2px solid #6C6C6C;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: #1f1f1f;
+    color: white;
+}
+.search input::placeholder {
+    color: #6C6C6C;
+}
+.home{
+    color: #F0AB15;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*------------------------------------ navbar ------------------------------------*/
+
+
+/*------------------------------------ karty ------------------------------------*/
+h2{
+    color: #F0AB15;
+    font-size: 60px;
+}
+.card{
+    width: 450px;
+    height: 300px;
+    background-color: rgba(31, 34, 40, 0.7);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.card-image{
+    width: 100px;
+    align-self: flex-end;
+    position: absolute;
+}
+.button-more{
+    border: 2px solid #F0AB15;
+    padding: 12px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
 }
 .card-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
 }
-.card{
-    width: 500px;
-    height: 300px;
-    background-color: rgba(128, 128, 128, 0.5);
-    padding: 20px;
+.header-card{
+    margin-top: 60px;
+    color: white;
+    font-size: 26px;
 }
-.card a{
-    border: 2px solid yellow;
-    padding: 10px;
+.info-card{
+    color: grey
 }
+/*------------------------------------ karty ------------------------------------*/
