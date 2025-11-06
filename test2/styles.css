@@ -94,13 +94,13 @@ nav ul {
 }
 .downsec{
     color: white;
-    height: 500px;
+    height: 800px;
     background-color: black;
     display: grid;
     grid-template-areas: 
-        "header img"
-        "info img"
-        "button img";
+        "header header  img"
+        "info info  img"
+        "button button  img";
     gap: 10px;
 }
 .downsec h2{
@@ -117,7 +117,7 @@ nav ul {
 }
 .downsec a{
     grid-area: button;
-    padding: 20px;
+    padding: 20px;  
     text-decoration: none;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
@@ -134,5 +134,5 @@ nav ul {
 .downsec img{
     grid-area: img;
     height: 100%;
-    
+    width: 100%;
 }
